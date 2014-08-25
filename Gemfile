@@ -15,6 +15,9 @@ gem 'pg', group: :production
 # Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
 
+# Add stripe for payment processing
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Use Bootstrap for improving the design
 gem 'bootstrap-sass'
 
@@ -60,4 +63,5 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 

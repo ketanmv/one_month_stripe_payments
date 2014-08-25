@@ -18,6 +18,9 @@ gem 'rails_12factor', group: :production
 # Use Bootstrap for improving the design
 gem 'bootstrap-sass'
 
+# Use Sprockets for CSS help and fixing glyphicons
+gem 'sprockets', '~> 2.11.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
